@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html id="body" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMonks Entertainment</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<!-- slider -->
+<div class="slider"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<body id="body">
+    <section class="container">
+        <nav class="flex">
+            <a href="#">Home</a>
+            <a href="#">Careers</a>
+            <a href="#">SignUp</a>
+            <a href="#">News letters</a>
+        </nav>
+
+        <main >
+            <div class="container hero flex">
+                <div class="left">
+                    <img src="./asset/gmonks_logo_round.webp" width="350px" alt="logo-png">
+                </div>
+
+                <div class="right" ">
+                    <h1>In stealth mode.</h1>
+                    <h3>We are building something exciting in the future of gaming...</h3>
+                    <h4>more details coming soon</h4>
+                    <h3>contact@gmonks.com</h3>
+                </div>
+            </div>
+        </main>
+
+        <p>Copyright © GMonks Entertainment 2023</p>
+
+    </section>
+
+    
+
+    <script src="./script.js"></script>
+
+    <!-- live-background  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+    VANTA.NET({
+      el: "#body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 1000.00,
+      minWidth: 800.00,
+      scale: 1,
+      scaleMobile: 1.00,
+      backgroundColor: 0x000000,
+      points: 12.00,
+      maxDistance: 20.00,
+      spacing: 24.00
+    })
+    </script>
+    
+</body>
+</html>
